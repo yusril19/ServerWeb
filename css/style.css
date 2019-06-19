@@ -7176,6 +7176,25 @@ body {
   color: white;
   background: #1E2223; }
 
+.scroll {
+  padding-bottom: 15rem;
+  margin-top: 9rem; }
+  .scroll__wrap {
+    height: 5rem;
+    width: 2rem;
+    border: solid 2px #208CAE;
+    border-radius: 4rem;
+    margin: 0 auto; }
+    .scroll__wrap-Circle {
+      position: relative;
+      text-align: center;
+      height: 1rem;
+      width: 1rem;
+      background: #208CAE;
+      border-radius: 4rem;
+      top: 29px;
+      right: -3px; }
+
 /*!
  * Font Awesome Free 5.9.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
