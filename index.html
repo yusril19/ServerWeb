@@ -10,16 +10,16 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand navbar__title" href="#">
          Company76
-         <img src="assets/img/Logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+         <img class="navbar__image" src="assets/img/Logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
        </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto push-left">
-          <li class="nav-item active">
+          <li class="nav-item active ">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
@@ -37,15 +37,149 @@
     <!-- End navbar -->
     <!-- Jumbotron products -->
     <div class="jumbotron" id="jumbo">
-      <img class="jumbotron-server" src="assets/img/server.png" width="120px"alt="">
-      <img class="jumbotron-pc" src="assets/img/PC1.png" width="150px" alt="">
-
-        <div class="jumbotron-textwrap">
-          <h3>Need The Unlimited Server</h3>
-          <p>With the best speed connection</p>
+      <img class="jumbotron__server" src="assets/img/server.png" width="130px"alt="">
+      <img class="jumbotron__pc" src="assets/img/PC1.png" width="150px" alt="">
+        <div class="jumbotron__textwrap">
+          <h2 class="jumbotron__textwrap-title">Need The Unlimited Server</h2>
+          <p class="jumbotron__textwrap-caption">With the best speed connection</p>
         </div>
     </div>
     <!-- end jumbotron -->
+    <!-- priducts -->
+    <section class="section-products">
+      <div class="container">
+        <h1 class="products__title">Our Products</h1>
+        <div class="row partCard">
+          <div class="col-lg-4 col-md-4 col-sm-12 item partCard__item">
+            <img src="https://img.icons8.com/color/48/000000/speed.png">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio repudiandae id facere consequuntur ut animi ratione voluptates numquam temporibus sapiente, enim et alias cum nostrum, explicabo aperiam officia repellendus consectetur!</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 partCard__item">
+            <img src="https://img.icons8.com/color/48/000000/gear.png">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis iusto aliquam dolorem quam, cum eligendi adipisci doloribus quae consequatur qui deleniti ipsum. Asperiores dolorum, animi molestiae accusamus magnam explicabo et!</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 partCard__item">
+            <img src="https://img.icons8.com/color/48/000000/secured-letter.png">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas doloremque eius qui illo sed saepe unde quos, temporibus velit nulla, adipisci, quia porro error! Culpa laboriosam dolorum blanditiis, debitis voluptas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end products -->
+    <!-- review -->
+    <section class="section-review">
+      <div class="container">
+        <h1 class="review-title">Testimonial</h1>
+        <div class="row cardReview">
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 cardReview__item">
+            <ul>
+              <li><img src="assets/img/women.png" align="left" alt=""></li>
+              <ul>
+                <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem nostrum iusto deserunt beatae dignissimos at earum necessitatibus consequatur neque illo!</p></li>
+                <li><h6>"Nicole Robin"</h6></li>
+              </ul>
+            </ul>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 cardReview__item">
+            <ul>
+              <li><img src="assets/img/man.png" align="left" alt=""></li>
+              <ul>
+                <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem nostrum iusto deserunt beatae dignissimos at earum necessitatibus consequatur neque illo!</p></li>
+                <li><h6>"Thomas Lincon"</h6></li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end review -->
+    <!-- about -->
+    <div class="section-about">
+      <div class="row" class="about__item">
+        <div class="col-lg-4 col-md-4 col-sm-12 about__item--brand">
+          <table>
+            <tr>
+              <td><h1>Company76</h1></td>
+              <td><img src="assets/img/Logo.png" alt=""></td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 about__item--address">
+          <table>
+            <tr>
+              <td><img src="https://img.icons8.com/color/48/000000/company.png"></td>
+              <td>
+                  <h3 class="h3-footer">Gem City</h3>
+                  <p>123 Webster St.</p>
+                  <p>Studio 2</p>
+                  <p>Dayton, OH, 45402 </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 about__item--call">
+          <p>CALL US</p>
+          <h1>937.401.0915</h1>
+        </div>
+      </div>
+    </div>
+    <!-- end about -->
+    <footer class="footer">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 wrap">
+          <div class="wrap__text">
+            <h5 class="h5-head-footer">We Love to connect with you</h5>
+            <p>See how we work</p>
+            <p>&copy;2019 Yusril, All right reserved.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 wrap">
+          <div class="wrap__text">
+            <h5 class="h5-head-footer">About</h5>
+            <div class="row">
+              <div class="row__footer">
+                <div class="row__footer-col-1">
+                    <a href="">About us</a>
+                    <a href="">Blog</a>
+                </div>
+              </div>
+              <div class="row__footer">
+                <div class="row__footer-col-2">
+                  <a href="">Privacy Policy</a>
+                  <a href="">Terms of Services</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 wrap">
+          <div class="wrap__text">
+            <h5 class="h5-head-footer">Connect Us</h5>
+            <div class="row">
+              <div class="row__footer">
+                <div class="column">
+                  <a href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+              <div class="row__footer">
+                <div class="column">
+                  <a href=""><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+              <div class="row__footer">
+                <div class="column">
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+              <div class="row__footer">
+                <div class="column">
+                  <a href=""><i class="fab fa-telegram"></i></a>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

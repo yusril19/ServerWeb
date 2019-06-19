@@ -1,0 +1,32 @@
+.about__item{
+  text-align: center;
+  &--brand{
+    padding: 5rem 0rem;
+    color: white;
+    background: #293C43;
+    & >table{
+      margin: 0 auto;
+    }
+  }
+  &--address{
+    color: white;
+    padding: 5rem 0rem;
+    background: #374950;
+    &>table{
+    margin: 0 auto;
+    line-height: 0.3;
+    }
+  }
+  &--call{
+    padding: 5rem 0rem;
+    background: #616C70;
+    text-align: center;
+    color: white;
+    &>p{
+      margin-top: 1rem;
+    }
+    &>h1{
+      margin-top: -1.5rem;
+    }
+  }
+}

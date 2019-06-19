@@ -1,0 +1,24 @@
+.section-products{
+  position: relative;
+  background: $warna-biru-muda;
+  width: 100%;
+  transform: skew(0deg, -2deg);
+    & > *{
+        transform: skew(0deg, 2deg);
+    }
+  padding-bottom: 15rem;
+  text-align: center;
+  z-index: 1;
+}
+.section-review{
+  position: relative;
+  z-index: 2;
+  background: $warna-abu;
+  margin-top: -6rem;
+  text-align: center;
+  padding-bottom: 6rem;
+}
+.footer{
+  color: white;
+  background: #1E2223;
+}

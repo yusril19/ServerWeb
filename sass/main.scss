@@ -2,3 +2,19 @@
 // Option A: Include all of Bootstrap
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "components/jumbotron";
+@import "components/products";
+@import "components/review";
+@import "components/about";
+@import "components/footer";
+@import "base/variabels";
+@import "base/typography";
+@import "components/nav";
+@import "page/home";
+
+//icons
+@import "icon/brands";
+@import "icon/fontawesome";
+@import "icon/regular";
+@import "icon/solid";
+@import "icon/v4-shims";

@@ -1,0 +1,40 @@
+.wrap{
+  text-align: center;
+  &__text{
+    display: inline-block;
+    text-align: left;
+    padding: 5rem 0rem;
+  }
+}
+
+.column{
+  &column--1{
+    margin-right: 4rem;
+  }
+}
+.row{
+  &__footer{
+    margin-left: 15px;
+    &>.column{
+      font-size: 4rem;
+      &>a{
+        color: white;
+      }
+    }
+    &-col-1{
+      & > a{
+        padding-bottom: 1rem;
+        color: white;
+        display: block;
+      }
+    }
+    &-col-2{
+      &>a{
+        padding-bottom: 1rem;
+        color: white;
+        display: block;
+        text-decoration: underline;
+      }
+    }
+  }
+}

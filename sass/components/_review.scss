@@ -1,0 +1,37 @@
+.review-title{
+  padding-top: 10rem;
+  font-weight: bold !important;
+  color: #208CAE;
+  padding-bottom: 5rem;
+}
+.cardReview{
+  &__item{
+    margin-bottom: 5rem;
+    &>img{
+      margin-right: 3rem;
+    }
+    &>ul{
+      list-style: none;
+      &>li{
+        &>img{
+          margin-right:3rem !important;
+          width: 12rem;
+        }
+      }
+      &>ul{
+        margin-left: 11rem;
+        list-style: none;
+        &>li{
+          text-align: left;
+          &>p{
+            font-size: 1.5rem;
+          }
+          &>h6{
+            font-size: 2rem;
+            color: #208CAE;
+          }
+        }
+      }
+    }
+  }
+}
